@@ -1,0 +1,52 @@
+.btn-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b1b1b1;
+  border: 1px solid black;
+  padding: 5px 10px;
+  width: 250px;
+  height: 35px;
+  background: url("../../img/for_logo/bottom-left.png") left bottom,
+    url("../../img/for_logo/right-top.png") right top;
+  background-repeat: no-repeat;
+  border-image: linear-gradient(
+    189deg,
+    #263e66 20%,
+    #09213d 40%,
+    #111f2d 61%,
+    #23599c 79%
+  );
+  border-image-slice: 1;
+  font-size: 14px;
+  background-color: black;
+  -webkit-transition: 0.8s ease;
+  -moz-transition: 0.8s ease;
+  -o-transition: 0.8s ease;
+  cursor: pointer;
+}
+
+.btn-style:hover {
+  color: aliceblue;
+  font-size: 18px;
+  border-image: linear-gradient(
+    360deg,
+    #263e66 20%,
+    #09213d 40%,
+    #111f2d 61%,
+    #23599c 79%
+  );
+  border-image-slice: 1;
+  background: url("../../img/for_logo/bottom-right.png") right bottom,
+    url("../../img/for_logo/left-top.png") left top;
+  background-repeat: no-repeat;
+  background-color: #111f2d;
+}
+
+@media screen and (max-width: 1400px) {
+  .btn-style {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+  }
+}

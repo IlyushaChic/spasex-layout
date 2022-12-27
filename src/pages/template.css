@@ -1,0 +1,150 @@
+.ilonpage__container {
+  border: 1px solid white;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img//IlonPageBody.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ilonpage__body {
+  width: 60%;
+  height: 63%;
+  display: flex;
+}
+.ilonpage__body-left_info {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.ilonpage__body-left_info-header {
+  font-size: 24px;
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    -90deg,
+    #ff3f04 0%,
+    #ffffff 90%,
+    #ffffff 100%
+  );
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+}
+.ilonpage__body-left_info-header::first-line {
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.ilonpage__body-left_btn-container {
+  width: 100%;
+  display: flex;
+}
+.ilonpage__body-left_btn-line {
+  width: 100%;
+  background: url("../img/figure.png");
+  background-size: cover;
+  background-position: center;
+}
+.ilonpage__body-right_info {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ilonpage__body-right_info-container {
+  width: 382px;
+  height: 382px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1400px) {
+  .ilonpage__body {
+    justify-content: center;
+    align-items: center;
+  }
+  .ilonpage__body {
+    flex-direction: column;
+    height: 100%;
+  }
+  .ilonpage__body-left_info {
+    height: 700px;
+  }
+  .ilonpage__body-left_info {
+    align-items: center;
+    width: 500px;
+    height: 300px;
+  }
+  .ilonpage__body-left_info-header {
+    width: 100%;
+    text-align: center;
+  }
+  .ilonpage__body-left_info-header::first-line {
+    font-size: 50px;
+  }
+  .ilonpage__body-left_btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ilonpage__body-left_btn-line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .ilonpage__body {
+    justify-content: center;
+    align-items: center;
+  }
+  .ilonpage__body {
+    flex-direction: column;
+    height: 100%;
+  }
+  .ilonpage__body-left_info {
+    height: 700px;
+  }
+  .ilonpage__body-left_info {
+    align-items: center;
+    width: 500px;
+    height: 300px;
+  }
+  .ilonpage__body-left_info-header {
+    width: 100%;
+    text-align: center;
+  }
+  .ilonpage__body-left_info-header::first-line {
+    font-size: 50px;
+  }
+  .ilonpage__body-left_btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ilonpage__body-left_btn-line {
+    display: none;
+  }
+  .ilonpage__body-right_info-container {
+    width: 100%;
+    height: 100%;
+  }
+  .ilonpage__body-right_info {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .ilonpage__body-right_info {
+  }
+  .ilonpage__body-right_info-container {
+  }
+}
